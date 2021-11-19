@@ -25,7 +25,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
                 imagePicker.delegate = self
                 imagePicker.sourceType = UIImagePickerController.SourceType.camera
                 imagePicker.allowsEditing = false
-                self.present(imagePicker, animated: true, completion: nil)
+                self.present(imagePicker, animated: true, completion: nil) 
             }
     
         }
